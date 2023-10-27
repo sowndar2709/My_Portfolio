@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+        <title>My_Portfolio</title>
+    </head>
+    <body>
+        <!-- OVERLAY -->
+        <div class="overlay first"></div>
+        <div class="overlay second"></div>
+        <div class="overlay third"></div>
+
+        <!-- HEADER -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">My_Portfolio</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="./Portfolio_video.mp4" class="nav__link">Slideshow</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="https://wa.me/qr/ACUKJAOZSGWUN1" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <ion-icon name="menu"></ion-icon>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN -->
+        <main class="l-main bd-grid">
+            <div class="home">
+                <div class="home__information">
+                    <span class="home__pressent anime-text">Hello, My name is</span>
+                    <h1 class="home__title anime-text">Sowndarrajan</h1>
+                    <span class="home__skill anime-text">Designer/Photographer</span>
+
+                    <div>
+                        <a href="./Resume.png" class="home__button anime-text">DOWNLOAD CV</a>
+                    </div>
+                </div>
+
+                <div class="home__img">
+                    <img src="./0P8A9836-01.jpeg" alt="My Image">
+                </div>  
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/profile.php?id=61551704353190">
+                       <ion-icon name="logo-facebook" class="home__social-icon"></ion-icon>
+                    </a>
+                    <a href="https://instagram.com/sowndar2709?igshid=MzMyNGUyNmU2YQ==">
+                       <ion-icon name="logo-instagram" class="home__social-icon"></ion-icon>
+                    </a>
+                    <a href="https://x.com/sowndar2709?t=SFky6Js6EcvVPIz-7yq53w&s=09">
+                        <ion-icon name="logo-twitter" class="home__social-icon"></ion-icon>
+                    </a>
+                </div>
+            </div>
+
+        </main>
+        <!-- GSAP -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+        <!-- MAIN -->
+        <script src="./main.js"></script>
+
+        <!-- ICONS -->
+        <script  type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+
+    </body>
+</html>
